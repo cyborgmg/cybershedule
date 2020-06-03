@@ -1,4 +1,4 @@
-package com.github.cybershedule.shedule;
+package com.github.cybershedule;
 
 import java.util.Date;
 
