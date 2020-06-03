@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.cyborgmg</groupId>
@@ -45,13 +44,21 @@
           <source.plugin.version>3.0.1</source.plugin.version>
 		  <gpg.passphrase>c6b94gmg</gpg.passphrase>
      </properties>
-
+	 <!--
 	 <scm>
 		<connection>scm:git:https://github.com/cyborgmg/cybershedule.git</connection>
 		<developerConnection>scm:git:https://github.com/cyborgmg/cybershedule.git</developerConnection>
 		<url>https://github.com/cyborgmg/cybershedule</url>
 		<tag>master</tag>
 	 </scm>
+	-->
+	
+	<scm>
+      <connection>scm:git:https://github.com/cyborgmg/cybershedule.git</connection>
+      <developerConnection>scm:git:https://github.com/cyborgmg/cybershedule.git</developerConnection>
+      <url>https://github.com/cyborgmg/cybershedule</url>
+	  <tag>cybershedule-0.0.1-SNAPSHOT</tag>
+  </scm>
 	
 	<distributionManagement>
           <snapshotRepository>
