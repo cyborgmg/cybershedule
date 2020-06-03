@@ -3,7 +3,7 @@
 
     <groupId>com.github.cyborgmg</groupId>
     <artifactId>cybershedule</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
 
     <name>cybershedule</name>
     <description>sheduler minute in minute</description>
@@ -44,21 +44,13 @@
           <source.plugin.version>3.0.1</source.plugin.version>
 		  <gpg.passphrase>c6b94gmg</gpg.passphrase>
      </properties>
-	 <!--
-	 <scm>
-		<connection>scm:git:https://github.com/cyborgmg/cybershedule.git</connection>
-		<developerConnection>scm:git:https://github.com/cyborgmg/cybershedule.git</developerConnection>
-		<url>https://github.com/cyborgmg/cybershedule</url>
-		<tag>master</tag>
-	 </scm>
-	-->
 	
 	<scm>
       <connection>scm:git:https://github.com/cyborgmg/cybershedule.git</connection>
       <developerConnection>scm:git:https://github.com/cyborgmg/cybershedule.git</developerConnection>
       <url>https://github.com/cyborgmg/cybershedule</url>
-	  <tag>cybershedule-0.0.1</tag>
-  </scm>
+	  <tag>master</tag>
+  	</scm>
 	
 	<distributionManagement>
           <snapshotRepository>
