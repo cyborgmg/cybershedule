@@ -1,4 +1,4 @@
-package com.github.cybershedule;
+package com.github.cyborgmg.cybershedule;
 
 import java.util.Calendar;
 
