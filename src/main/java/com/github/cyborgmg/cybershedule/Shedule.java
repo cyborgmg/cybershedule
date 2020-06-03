@@ -24,8 +24,6 @@ public class Shedule extends SheduleBase {
 	@Override
 	public void execute() {
 		
-		System.out.println((new Date()).toString()+" getCount()="+getCount()+" timeInTime="+timeInTime+" (getCount()%timeInTime==0)="+(getCount()%timeInTime==0));
-		
 		if(getCount()%timeInTime==0) {
 			
 			System.out.println("zeraCount()");
