@@ -26,7 +26,6 @@ public class Shedule extends SheduleBase {
 		
 		if(getCount()%timeInTime==0) {
 			
-			System.out.println("zeraCount()");
 			zeraCount();
 			
 			new Thread() {
